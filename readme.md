@@ -1,1 +1,1 @@
-https://mariuszziental.github.io/goit-markup-hw-02/
+https://mariuszziental.github.io/goit-markup-hw-03/
