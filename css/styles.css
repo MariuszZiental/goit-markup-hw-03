@@ -1,0 +1,262 @@
+:root {
+  --main-font-color: #212121;
+  --secondary-font-color: #757575;
+  --brand-color: #2196f3;
+  --logo-black-font-color: #000000;
+  --logo-white-font-color: #ffffff;
+  --black-box-color: #2f303a;
+  --our-crew-background: #f5f4fa;
+  --focus-color: palevioletred;
+  --footer-contact-link-color: #ffffff99;
+}
+
+body {
+  color: var(--main-font-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  min-height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*navbar and links start*/
+
+.navbar a {
+  text-decoration: none;
+}
+
+.nav-list {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-list ul {
+  display: inline-block;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar .nav-list a {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  color: var(--main-font-color);
+}
+.nav-link .contact-link {
+  display: inline-flex;
+}
+.nav-link .contact-link ul {
+  display: inline-flex;
+}
+.nav-link .contact-link ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+/*navbar and links end*/
+
+/*logo start*/
+
+.brand-color {
+  color: var(--brand-color);
+}
+
+.top-brand-link {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2em;
+  letter-spacing: 0.03em;
+  color: var(--logo-black-font-color);
+}
+.bottom-brand-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2em;
+  letter-spacing: 0.03em;
+  color: var(--logo-white-font-color);
+}
+
+a.top-link:hover {
+  color: var(--brand-color);
+}
+a.top-link:active {
+  color: var(--brand-color);
+}
+a.top-link:focus {
+  color: var(--focus-color);
+}
+
+
+a.bottom-link {
+  color: var(--footer-contact-link-color);
+  text-decoration: none;
+}
+a.bottom-link:hover {
+  color: var(--brand-color);
+}
+a.bottom-link:active {
+  color: var(--brand-color);
+}
+a.bottom-link:focus {
+  color: var(--focus-color);
+}
+
+/*logo end*/
+
+.big-black-box {
+  height: 600px;
+  width: 1600px;
+  left: 0px;
+  top: 80px;
+  border-radius: 0px;
+
+  background: var(--black-box-color);
+}
+h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 3.75em;
+  color: var(--logo-white-font-color);
+}
+
+/*button main page start*/
+
+.main-page-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  cursor: pointer;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--brand-color);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1,87em;
+  color: var(--logo-white-font-color);
+}
+
+/*button end*/
+
+/*our-strengths start*/
+
+.our-strengths {
+  font-family: "Roboto";
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--secondary-font-color);
+}
+
+.our-strengths {
+  display: inline-flex;
+}
+/*workscope start*/
+
+.workscope {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+
+.list-of-workscope {
+  display: inline-flex;
+}
+
+/*workscope end*/
+
+/*our-crew start*/
+
+.our-crew {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+
+  background: var(--our-crew-background);
+}
+
+.list-of-our-crew {
+  display: inline-flex;
+}
+
+/*our-crew end*/
+
+/*footer start*/
+
+.little-black-box {
+  position: absolute;
+  text-decoration: none;
+
+  height: 252px;
+  width: 1600px;
+  left: 0px;
+  top: 2097px;
+
+  background: var(--black-box-color);
+}
+
+/*only portfolio styles start*/
+
+/*buttons start*/
+
+.portfolio-page-buttons li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  letter-spacing: 0.03em;
+
+  display: inline-flex;
+  text-align: center;
+  cursor: pointer;
+  background: var(--our-crew-background);
+  transition-duration: 0.3s;
+}
+
+.portfolio-page-buttons:hover li {
+  background-color: var(--brand-color);
+}
+
+/*buttons end*/
+
+/*projects start*/
+
+.first-line-of-projects {
+  display: inline-flex;
+}
+
+.second-line-of-projects {
+  display: inline-flex;
+}
+
+.third-line-of-projects {
+  display: inline-flex;
+}
+
+/*projects end*/
