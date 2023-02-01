@@ -66,6 +66,24 @@ h2 {
   display: inline-block;
   padding: 0px 20px;
 }
+
+.navbar-box {
+width: 1200px;
+
+}
+.logo-box {
+
+}
+.nav-link-box {
+
+}
+.contact-link-box {
+
+}
+.logo-box .nav-link-box .contact-link-box {
+display: inline-block;
+}
+
 /*navbar and links end*/
 
 /*logo start*/
