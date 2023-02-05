@@ -20,10 +20,13 @@ body {
   font-size: 14px;
   line-height: 16px;
   min-height: 100%;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 
 ul {
@@ -33,15 +36,12 @@ ul {
 h1 {
   width: 696px;
   height: 120px;
-  left: 452px;
-  top: 280px;
-
   text-transform: uppercase;
   letter-spacing: 0.06em;
   text-align: center;
   font-weight: 900;
   font-size: 44px;
-  line-height: 3.75em;
+  line-height: 1.75em;
   color: var(--logo-white-font-color);
 }
 
@@ -50,6 +50,7 @@ h2 {
   font-size: 36px;
   padding-top: 94px;
   padding-bottom: 50px;
+  margin: 0px;
 }
 h3 {
   text-align: left;
@@ -160,12 +161,11 @@ flex-direction: row;
 .big-black-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  align-content:space-around;
-  width: 1600px;
+  margin: 0 auto;
   height: 600px;
-  top: 80px;
+  width: 1600px;
   background: var(--black-box-color);
 }
 
@@ -219,12 +219,8 @@ flex-direction: row;
 .workscope {
   display: flex;
   flex-direction: column;
- 
-  margin-left: 200px;
-  margin-right: 200px;
   width: 1200px;
-  padding: 100px;
-  margin-top: 10px;
+  margin: 0 auto;
 }
 .list-of-activities {
   display: flex;
@@ -235,7 +231,6 @@ flex-direction: row;
 display: flex;
 flex-direction: column;
 justify-content: center;
-width: 1600px;
 }
 /*workscope end*/
 
@@ -247,18 +242,14 @@ width: 1600px;
 .our-crew {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  margin-right: 200px;
   width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
+  margin: 0 auto;
   background: var(--our-crew-background);
 }
 
 .list-of-our-crew {
-  width: 1200px;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -270,6 +261,7 @@ width: 1600px;
   text-align: center;
   background: var(--logo-white-font-color);
   margin: 15px;
+  margin-bottom: 94px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -281,20 +273,16 @@ width: 1600px;
 
 .little-black-box {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
-
-  height: 252px;
-  width: 1600px;
-  left: 0px;
-  top: 2097px;
-
   background: var(--black-box-color);
 }
 .bottom-things {
   display: flex;
   flex-direction: column;
-  width: 1600px;
-  padding: 60px 1139px 60px 215px;
+  padding: 60px 0px 60px 215px;
 }
 /*------
 
