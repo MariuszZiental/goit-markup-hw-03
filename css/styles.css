@@ -202,19 +202,17 @@ flex-direction: row;
   
   display: flex;
   flex-direction: row;
-  width: 1200px;
+  width: 1600px;
   padding: 15px 94px 15px 94px;
   line-height: 1.5em;
   letter-spacing: 0.03em;
+  column-gap: 30px;
+  justify-content:center;
   text-decoration: none;
   color: var(--secondary-font-color);
 }
 .notes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: space-around;
-  text-align: left;
+  align-content: center;
 }
 
 /*workscope start*/
@@ -231,7 +229,7 @@ flex-direction: row;
 .list-of-activities {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  column-gap: 30px;
 }
 .os-ws {
 display: flex;
