@@ -59,47 +59,13 @@ h3 {
 
 .navbar {
   display: flex;
-  justify-content:space-evenly;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  width: 1600px;
   height: 80px;
 }
-.logo-box a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
 
-  /*padding-top: 24px;
-  padding-bottom: 25px;
-  padding-left: 15px;
-  width: 145px;
-  height: 31px;*/
-}
-
-.nav-list li a {
-  display: flex;
-  flex-direction: row;
- align-items: center;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--main-font-color);
-}
-.nav-link-box a {
-  display: flex;
-  align-items: center;
-}
-.contact-link-box a {
-  display: flex;
-  align-items: center;
-}
-
-
-/*navbar and links end*/
-
-/*logo start*/
-
-.brand-color {
-  color: var(--brand-color);
-}
 
 .top-brand-link {
   font-weight: 700;
@@ -141,13 +107,62 @@ a.bottom-link:focus {
   color: var(--focus-color);
 }
 
+
+.logo-box a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  /*padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  width: 145px;
+  height: 31px;*/
+}
+
+.nav-link-box {
+  display: flex;
+  flex-direction: row;
+  column-gap: 46px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.nav-link-box a {
+  color: var(--main-font-color);
+}
+
+.contact-link-box {
+  display: flex;
+  flex-flow: row;
+  column-gap: 46px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.contact-link-box a {
+  color: var(--main-font-color);
+}
+
+.navbar .nav-link-box a {
+display: flex;
+flex-direction: row;
+}
+/*navbar and links end*/
+
+/*logo start*/
+
+.brand-color {
+  color: var(--brand-color);
+}
+
+
 /*Main start */
 
 .big-black-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  align-content:space-around;
   width: 1600px;
   height: 600px;
   top: 80px;
@@ -206,7 +221,7 @@ a.bottom-link:focus {
 .workscope {
   display: flex;
   flex-direction: column;
-
+ 
   margin-left: 200px;
   margin-right: 200px;
   width: 1200px;
@@ -216,6 +231,7 @@ a.bottom-link:focus {
 .list-of-activities {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .os-ws {
 display: flex;
