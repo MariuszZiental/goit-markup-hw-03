@@ -12,6 +12,7 @@
 
 * {
   box-sizing: border-box;
+  margin: 0px;
 }
 
 body {
@@ -54,8 +55,14 @@ h2 {
 }
 h3 {
   text-align: left;
+  padding-bottom: 10px;
+  text-decoration: solid;
 }
-
+h4 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-decoration: solid;
+}
 /*navbar and links start*/
 
 .navbar {
@@ -65,7 +72,6 @@ h3 {
   align-items: center;
   height: 80px;
 }
-
 
 .top-brand-link {
   font-weight: 700;
@@ -83,6 +89,9 @@ h3 {
   color: var(--logo-white-font-color);
 }
 
+.top-link {
+  text-decoration: none;
+}
 a.top-link:hover {
   color: var(--brand-color);
 }
@@ -106,7 +115,6 @@ a.bottom-link:active {
 a.bottom-link:focus {
   color: var(--focus-color);
 }
-
 
 .logo-box a {
   display: flex;
@@ -142,9 +150,10 @@ a.bottom-link:focus {
   color: var(--main-font-color);
 }
 
-.navbar .nav-link-box a {
-display: flex;
-flex-direction: row;
+.navbar .nav-link-box a  {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
 }
 /*navbar and links end*/
 
@@ -154,17 +163,16 @@ flex-direction: row;
   color: var(--brand-color);
 }
 
-
 /*Main start */
 
 .big-black-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin: 0 auto;
-  height: 600px;
   background: var(--black-box-color);
+  padding: 200px 452px 200px 452px;
+  row-gap: 40px;
 }
 
 .bigest-text {
@@ -175,12 +183,7 @@ flex-direction: row;
 }
 
 .studio-button {
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-content: center;
   padding: 10px 41px 10px 42px;
-  width: 200px;
   letter-spacing: 0.06em;
   border-radius: 4px;
   font-size: 16px;
@@ -191,20 +194,19 @@ flex-direction: row;
 }
 /*button end*/
 
-
 /*our strengths and workscope start*/
 
 /*our-strengths start*/
 
 .our-strengths {
-  
   display: flex;
   flex-direction: row;
-  padding: 15px 94px 15px 94px;
+  padding: 94px 215px 94px 215px;
+  padding-bottom: 0px;
   line-height: 1.5em;
   letter-spacing: 0.03em;
   column-gap: 30px;
-  justify-content:center;
+  justify-content: center;
   text-decoration: none;
   color: var(--secondary-font-color);
 }
@@ -223,16 +225,11 @@ flex-direction: row;
   display: flex;
   flex-direction: row;
   column-gap: 30px;
-}
-.os-ws {
-display: flex;
-flex-direction: column;
-justify-content: center;
+  padding-bottom: 94px;
 }
 /*workscope end*/
 
 /*our strengths and workscope end*/
-
 
 /*our-crew start*/
 
@@ -247,22 +244,24 @@ justify-content: center;
 
 .list-of-our-crew {
   display: flex;
-  justify-content: space-around;
   flex-direction: row;
 }
 .oc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
-  background: var(--logo-white-font-color);
   margin: 15px;
   margin-bottom: 94px;
+  font-size: 16px;
+  line-height: 1.37em;
+  letter-spacing: 0.03em;
+
+  background: var(--logo-white-font-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
+.oct {
+margin-bottom: 30px;
+}
 /*our-crew end*/
 
 /*footer start*/
@@ -278,7 +277,11 @@ justify-content: center;
 .bottom-things {
   display: flex;
   flex-direction: column;
-  padding: 60px 0px 60px 215px;
+  padding: 60px 939px 60px 15px;
+}
+
+.bottom-things p {
+  padding-bottom: 9px;
 }
 /*------
 
